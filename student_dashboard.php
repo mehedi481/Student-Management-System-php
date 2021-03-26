@@ -2,7 +2,7 @@
 <html>
 <head>
 	<title>Admin Dashboard</title>
-	
+	<link rel="stylesheet" type="text/css" href="bootstrap-4.4.1/css/bootstrap.min.css">
 	<style type="text/css">
 		#header{
 			height: 10%;
