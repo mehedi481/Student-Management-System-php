@@ -47,7 +47,7 @@
 		<a href="logout.php">Logout</a>
 		</center>
 	</div>
-	<span id="top_span"><marquee>Note:- This portal is open till 31 March 2020...Plz edit your information, if wrong.</marquee></span>
+	<span id="top_span"><marquee>Welcome <?php echo $_SESSION['name'];?> to your portal Deshboard !</marquee></span>
 	<div id="left_side">
 		<br><br><br>
 		<form action="" method="post">
@@ -67,7 +67,7 @@
 		</form>
 	</div>
 	<div id="right_side"><br><br>
-		<div id="demo">
+		<div>
 			<?php
 			if(isset($_POST['show_detail']))
 			{

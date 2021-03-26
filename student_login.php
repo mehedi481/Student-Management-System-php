@@ -4,6 +4,12 @@
 	<title>Student Login</title>
 	<link rel="stylesheet" type="text/css" href="bootstrap-4.4.1/css/bootstrap.min.css">
 </head>
+<style type="text/css">
+		h3{
+			background-color: gray;
+			padding: 10px;
+		}
+	</style>
 <body>
 	<center><br><br>
 		<h3>Student LogIn Page</h3><br>
